@@ -1,0 +1,9 @@
+<ion-view view-title="Idea Hats">
+  <ion-content>
+    <ion-list>
+      <ion-item ng-repeat="hat in hats" ui-sref="hat({hId:hat.$id})">
+        {{hat.title}}
+      </ion-item>
+    </ion-list>
+  </ion-content>
+</ion-view>
